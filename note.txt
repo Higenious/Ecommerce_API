@@ -1,0 +1,17 @@
+3. Create an ecommerce back end -> the users are -> super admin, admin, customer
+
+a. super admin can login and CRUD products and view, edit or delete orders placed by various customers
+
+b. customer can sign up and login (using mobile and email otp), use the right validations here, also needs social media login
+
+c. customer will get a cart. a cart is a storage that will store items placed by a customer, so this means, every user has their own cart, they can add or delete and edit items in the cart
+
+d. customer can also take this cart to checkout, if the session changes, the cart does not lose the information.
+
+e. customers can favourite a product, save to Wishlist and store multiple addresses, they need to be able to create a profile (name, phone number, address, email, password, profile pic) and can change any of these things as and when required. customers can also save multiple addresses and cards.
+
+f. we have to maintain history of all the previous orders placed by the customer, and each order will have a unique order id and also have statuses assigned for example, pending, completed, processing, cancelled etc.
+
+g. admins are subordinates of super admin that have access only to specific roles, so the super admin can add a new admin and specify the roles to an admin (for example, the super admin can say that a particular admin has access to only the users list or only to orders or only to products)
+
+h. when a user logs in, he can see complete list of products and place them in cart -> checkout -> see history etc. (this is the flow)

@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce_api",
+  "version": "1.0.0",
+  "description": "ecommerce API ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "higenious"
+  },
+  "author": "Chet@n Tayade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "log4js": "^6.1.2",
+    "mongoose": "^5.9.4",
+    "path": "^0.12.7"
+  }
+}
