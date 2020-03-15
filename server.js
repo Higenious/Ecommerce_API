@@ -6,6 +6,8 @@ const log4js = require('log4js');
 const logger = log4js.getLogger();
 logger.level = 'debug';
 logger.debug("server");
+const router = require("./router/router")
+const db = require('./dbconn/dbConnection')
 
 
 /** index  */
@@ -20,6 +22,7 @@ app.use(bodyParser.json())
 
 /** import all routes */
 logger.info("routes  initializing");
+app.use('/api/v1', router); 
 
 
 /** listen server */
