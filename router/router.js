@@ -20,5 +20,6 @@ router.post('/product/delete', productController.deleteProduct);
 
 
 
+
 /**exports routes*/
 module.exports = router;
