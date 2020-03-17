@@ -185,10 +185,6 @@ function validate(req, res) {
 
 
 
-
-
-
-
 /** exports controller */
 module.exports.singUp = singUp;
 module.exports.singIn = singIn;

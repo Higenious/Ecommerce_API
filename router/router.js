@@ -14,6 +14,9 @@ router.get('/verify/:uniquecode', userController.verify);
 
 
 /** products */
+router.post('/product/create', productController.createProduct);
+router.post('/product/delete', productController.deleteProduct);
+
 
 
 

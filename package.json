@@ -19,6 +19,7 @@
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "handlebars": "^4.7.3",
+    "joi": "^14.3.1",
     "log4js": "^6.1.2",
     "mongoose": "^5.9.4",
     "mongoose-timestamp": "^0.6.0",
